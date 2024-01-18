@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #66d;
+}
+
+body {
+    background-color: #eee;
+    width: 1000px;
+    margin: 16px auto;
+    font-family: "Lilex", monospace;
+}
+
+h1, h2, p, ol {
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 4px 8px;
+    background-color: #ddd;
+    margin: 8px;
+}
+
+li {
+    margin-left: 32px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.notice, 
+.downgrading,
+.installing,
+.done, img {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: #ddd;
+    margin: 8px;
+}
+
+img {
+    display: inline;
+    border-radius: 14px;
+}
+
+.notice {
+    background-color: #ebb;
+    border-color: #daa;
+}
+.notice > * {
+    background-color: #fcc;
+    border-color: #fcc;
+}
+
+.downgrading {
+    background-color: #bbe;
+    border-color: #aad;
+}
+.downgrading > * {
+    background-color: #ccf;
+    border-color: #ccf;
+}
+
+.installing {
+    background-color: #beb;
+    border-color: #ada;
+}
+.installing > * {
+    background-color: #cfc;
+    border-color: #cfc;
+}
+
+.done {
+    background-color: #bee;
+    border-color: #add;
+}
+.done > * {
+    background-color: #cff;
+    border-color: #cff;
+}
+
+.changeLang {
+    position: fixed;
+    text-align: center;
+    width: 100px;
+    left: 16px;
+    right: 16px;
+    border: 2px solid #ebe;
+    border-radius: 10px;
+    padding: 4px;
+    background-color: #fcf;
+    margin: 8px;
+}
