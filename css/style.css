@@ -16,6 +16,16 @@ body {
     font-family: "Lilex", monospace;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #ddd;
+    margin: 8px;
+}
+
 h1, h2, p, ol {
     font-size: 16px;
     border: 2px solid #ccc;
@@ -23,6 +33,21 @@ h1, h2, p, ol {
     padding: 4px 8px;
     background-color: #ddd;
     margin: 8px;
+}
+
+.header > h1 {
+    border: none;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+}
+
+.header > p {
+    border: none;
+    padding: 0;
+    background: none;
+    border-radius: 0;
+    color: #888;
 }
 
 li {
@@ -34,7 +59,7 @@ h1 {
 }
 
 .notice, 
-.downgrading,
+.installingMobile,
 .installing,
 .done, img {
     border: 2px solid #ccc;
@@ -58,11 +83,11 @@ img {
     border-color: #fcc;
 }
 
-.downgrading {
+.installingMobile {
     background-color: #bbe;
     border-color: #aad;
 }
-.downgrading > * {
+.installingMobile > * {
     background-color: #ccf;
     border-color: #ccf;
 }
@@ -96,4 +121,23 @@ img {
     padding: 4px;
     background-color: #fcf;
     margin: 8px;
+}
+
+hr {
+    border: 1px solid #ddd;
+}
+
+.footer {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 4px 8px;
+    background-color: #ddd;
+    margin: 8px;
+}
+
+.footer > * {
+    border: none;
+    padding: 0;
+    background: none;
+    border-radius: 0;
 }
